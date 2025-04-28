@@ -5,7 +5,7 @@
     "networkMode": "awsvpc",
     "containerDefinitions": [
       {
-        "name": "meu-container",
+        "name": "fastapi-container",
         "image": "212199569343.dkr.ecr.us-east-1.amazonaws.com/repo:latest",
         "cpu": 256,
         "memory": 512,
