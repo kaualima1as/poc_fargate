@@ -20,7 +20,7 @@
         "essential": true,
         "restartPolicy": {
           "enabled": true,
-          "name": "on-failure"
+          "restartAttemptPeriod": 5
         },
         "logConfiguration": {
           "logDriver": "awslogs",
