@@ -4,4 +4,4 @@ app = FastAPI()
 
 @app.get("/")
 def hello():
-    return "Hello, World! Testing FastAPI with Docker."
+    return "Hello, World! Testing FastAPI with Docker"
