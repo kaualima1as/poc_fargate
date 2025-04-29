@@ -25,9 +25,9 @@
         "logConfiguration": {
           "logDriver": "awslogs",
           "options": {
-            "awslogs-group": "/ecs/meu-app-logs",
+            "awslogs-group": "/ecs/poc_fargate",
             "awslogs-region": "us-east-1",
-            "awslogs-stream-prefix": "meu-container"
+            "awslogs-stream-prefix": "fastapi-container"
           }
         }
       }
